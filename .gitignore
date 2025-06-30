@@ -192,3 +192,81 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# =============================================================================
+# Soros Chatbot Project Specific
+# =============================================================================
+
+# API Keys and sensitive configuration
+.env
+.env.local
+.env.production
+.env.staging
+
+# PDF files (user uploads)
+data/pdfs/uploads/
+data/pdfs/processed/
+data/pdfs/archive/
+
+# Node.js dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# React build outputs
+frontend/build/
+frontend/dist/
+
+# React development
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# React logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# React coverage
+frontend/coverage/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+cache/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
