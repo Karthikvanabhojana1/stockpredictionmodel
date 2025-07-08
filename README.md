@@ -2,7 +2,7 @@
 
 A sophisticated AI chatbot that speaks like George Soros, built with PDF processing capabilities, a comprehensive knowledge base, and a modern React frontend.
 
-## 🌟 Features
+## Features
 
 - **Soros-Style Conversations**: Chat with an AI that mimics George Soros's philosophical and economic thinking
 - **PDF Processing**: Upload and analyze PDF documents to extract knowledge
@@ -12,7 +12,7 @@ A sophisticated AI chatbot that speaks like George Soros, built with PDF process
 - **CLI Interface**: Command-line interface for testing and development
 - **Configuration Management**: Easy setup with .env file support
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 stockpredictionmodel/
@@ -36,7 +36,7 @@ stockpredictionmodel/
 └── .env                # Environment variables (auto-created)
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone and Setup
 
@@ -100,7 +100,7 @@ python cli.py
 - **Configuration**: http://localhost:8000/config
 - **Health Check**: http://localhost:8000/health
 
-## 📚 Usage
+## Usage
 
 ### Web Interface
 
@@ -137,7 +137,7 @@ python cli.py --setup
 - `POST /add-concept` - Add custom concepts
 - `DELETE /clear-memory` - Clear conversation memory
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -160,7 +160,7 @@ python config.py
 python cli.py --setup
 ```
 
-## 🧠 Knowledge Base
+## Knowledge Base
 
 The system includes a comprehensive knowledge base of George Soros's key concepts:
 
@@ -184,7 +184,7 @@ curl -X POST "http://localhost:8000/add-concept" \
   -d "concept_name=Your Concept&definition=Definition here&key_points=Point 1,Point 2,Point 3"
 ```
 
-## 📄 PDF Processing
+## PDF Processing
 
 The system can process PDF documents to extract:
 
@@ -201,7 +201,7 @@ The system can process PDF documents to extract:
 - Chunking for AI processing
 - Quote and concept identification
 
-## 🛠️ Development
+## Development
 
 ### Project Structure
 
@@ -233,7 +233,7 @@ python config.py
 3. **New UI Components**: Add to `frontend/src/components/`
 4. **New PDF Processing**: Extend `src/pdf_reader.py`
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -283,11 +283,11 @@ curl http://localhost:8000/health
 curl http://localhost:8000/config
 ```
 
-## 📝 License
+##  License
 
 This project is for educational and research purposes. Please respect OpenAI's terms of service and George Soros's intellectual property.
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -295,7 +295,7 @@ This project is for educational and research purposes. Please respect OpenAI's t
 4. Test thoroughly
 5. Submit a pull request
 
-## 📞 Support
+## Support
 
 For issues and questions:
 1. Check the troubleshooting section
@@ -305,4 +305,3 @@ For issues and questions:
 
 ---
 
-**Note**: This chatbot is designed to mimic George Soros's style and knowledge for educational purposes. It does not represent actual financial advice or George Soros's current views.
